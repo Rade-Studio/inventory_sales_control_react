@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Navbar from "./Utilities/components/navbar";
 import "./index.css";
+import App from "./Components/App";
+import SideBar from "./Utilities/components/SideBar";
 
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <Navbar></Navbar>
+    <App></App>
   </React.StrictMode>,
 );
 

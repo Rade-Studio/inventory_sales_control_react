@@ -8,8 +8,7 @@ import SideBar from "./Utilities/components/SideBar";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-      <SideBar SideBar></SideBar>
-      <Navbar></Navbar>
+      <App></App>
   </React.StrictMode>,
 )
 

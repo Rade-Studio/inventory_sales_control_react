@@ -1,0 +1,20 @@
+@import "./commons.scss";
+
+.SideBaCardView{
+    text-align: center;
+
+    .profileInfo{
+        overflow: hidden;
+        height: 80px;
+        @include transition(height);
+
+        &.collapsed{
+            opacity: 0;
+            height: 0;
+        }
+        .name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}

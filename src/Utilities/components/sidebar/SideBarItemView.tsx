@@ -1,12 +1,12 @@
-import { SideBarItem } from "../../types/types"
-import { classNames } from "./classes";
-
+import { SideBarItem } from "Interfaces/sidebar/sidebar.interface";
+import { classNames } from "Utilities/classes";
+import "./styles/SideBarItemView.scss";
 interface SidebarItemViewProps {
     item: SideBarItem;
     isOpen: boolean;
 }
 export default function SideBarItemView ({item, isOpen,}: SidebarItemViewProps){
-    return <div className="SideBarItem">
+    return <div className="SideBarItemView">
                 <a href={item.url}>
                     <div className={classNames("ItemContent", isOpen? " ": "collapsed")}>
                         <div className="icon">

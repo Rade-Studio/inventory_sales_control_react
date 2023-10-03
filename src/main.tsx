@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Navbar from "./Utilities/components/navbar";
 import "./index.css";
-import App from "./Components/App";
-import SideBar from "./Utilities/components/SideBar";
+import App from "Components/App";
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

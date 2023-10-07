@@ -111,6 +111,7 @@ export default function PersistentDrawerLeft() {
           },
         }}
         variant="persistent"
+        color='secondary'
         anchor="left"
         open={open}
       >
